@@ -82,7 +82,7 @@ const start = () => {
     } else {
       return bot.sendMessage(
         chatId,
-        ` you loose, bot guess number ${chats[chatId]}`,
+        ` you looseк, bot guess number ${chats[chatId]}`,
         againOptions
       );
     }
