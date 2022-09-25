@@ -4,6 +4,13 @@ module.exports = {
       inline_keyboard: [[{ text: "play again", callback_data: "/again" }]],
     }),
   },
+  linkOptions: {
+    reply_markup: JSON.stringify({
+      inline_keyboard: [
+        [{ text: "Go to the vacancies", callback_data: "/goToVac" }],
+      ],
+    }),
+  },
   gameOptions: {
     reply_markup: JSON.stringify({
       inline_keyboard: [
